@@ -1,7 +1,6 @@
-#timeline-carousel是什么?
 一个基于vue的时间轴轮播图插件。
 
-##使用方式？
+##使用方式
 * 安装
 ```javascript
 npm i timeline-carousel --save
@@ -28,15 +27,6 @@ Vue.use(timelineCarousel)
   />
 </template>
 
-<script>
-import timelineCarousel from 'timeline-carousel'
-export default {
-  components: {
-    timelineCarousel
-  }
-}
-</script>
-
 ```
 
 ##属性
@@ -60,8 +50,11 @@ mouseEvent | false | Boolean | 鼠标移入轮播图禁止滚动 | |
 ----------|-----------|---------
 getCurrentItem | getCurrentItem(index, timelineItem, carouselItem){} | (索引值, 时间轴Item, 轮播图Item)
 
+##demo
+!['demo']('./src/assets/images/7.jpg)
+
 ##作者信息
 - 陈佳兵
 - qq：1014984541
 - 邮箱：1014984541@qq.com
-- github: 
+- github: (https://github.com/chenfalse/timeline-carousel)
