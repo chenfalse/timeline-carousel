@@ -1,11 +1,16 @@
 {
   "name": "timeline-carousel",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "private": false,
   "description": "时间轴轮播图插件",
   "main": "lib/timeline-carousel.umd.min",
   "license": "MIT",
   "author": "chenjiabing",
+  "homepage": "https://github.com/chenfalse/timeline-carousel",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenfalse/timeline-carousel.git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

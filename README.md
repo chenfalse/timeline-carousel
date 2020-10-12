@@ -1,5 +1,8 @@
 一个基于vue的时间轴轮播图插件。
 
+##DEMO演示
+* [项目演示](https://chenfalse.github.io/timeline-carousel/#/)
+
 ##使用方式
 * 安装
 ```javascript
@@ -50,8 +53,6 @@ mouseEvent | false | Boolean | 鼠标移入轮播图禁止滚动 | |
 ----------|-----------|---------
 getCurrentItem | getCurrentItem(index, timelineItem, carouselItem){} | (索引值, 时间轴Item, 轮播图Item)
 
-##demo
-*[项目演示](https://chenfalse.github.io/timeline-carousel/#/)
 
 ##作者信息
 - 陈佳兵
