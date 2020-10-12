@@ -51,7 +51,7 @@ mouseEvent | false | Boolean | 鼠标移入轮播图禁止滚动 | |
 getCurrentItem | getCurrentItem(index, timelineItem, carouselItem){} | (索引值, 时间轴Item, 轮播图Item)
 
 ##demo
-!['demo']('./src/assets/images/7.jpg)
+*![]('./src/assets/images/7.jpg)
 
 ##作者信息
 - 陈佳兵
