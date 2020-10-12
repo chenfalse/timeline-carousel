@@ -44,7 +44,7 @@ autoPlay | true | Boolean | 是否自动播放 | |
 loop | true | Boolean | 是否循环播放 | |
 timelineNum | 6 | Number | 时间轴显示数量 |  |
 timelineWidth | 150 | Number | 时间轴item宽度 | 默认150宽度，如果更改宽度，组件中展示几个元素需要与timelineNum属性展示数量保持一致 |
-enterActiveClass | animate__animated animate__fadeInLeft | String | 轮播图切换动画 | animate.css中的如何动画都可以使用 |
+enterActiveClass | animate__animated animate__fadeInLeft | String | 轮播图切换动画 | animate.css库中任意动画都可以使用 |
 mouseEvent | false | Boolean | 鼠标移入轮播图禁止滚动 | |
 
 ##事件
