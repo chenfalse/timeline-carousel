@@ -1,9 +1,9 @@
 一个基于vue的时间轴轮播图插件。
 
-##DEMO演示
+## DEMO演示
 * [项目演示](https://chenfalse.github.io/timeline-carousel/#/)
 
-##使用方式
+## 使用方式
 * 安装
 ```javascript
 npm i timeline-carousel --save
@@ -14,7 +14,7 @@ import timelineCarousel from 'timeline-carousel'
 Vue.use(timelineCarousel)
 ```
 * 组件中使用
-```javascript
+```
 <template>
   <timeline-carousel 
     :timelineList="[{
@@ -32,7 +32,7 @@ Vue.use(timelineCarousel)
 
 ```
 
-##属性
+## 属性
 
 名称 | 默认值 | 类型 | 简介 | 注意
 ----------|-----------|---------|----------|----------
@@ -47,14 +47,14 @@ timelineWidth | 150 | Number | 时间轴item宽度 | 默认150宽度，如果更
 enterActiveClass | animate__animated animate__fadeInLeft | String | 轮播图切换动画 | animate.css库中任意动画都可以使用 |
 mouseEvent | false | Boolean | 鼠标移入轮播图禁止滚动 | |
 
-##事件
+## 事件
 
 名称 | 返回值 | 说明 
 ----------|-----------|---------
 getCurrentItem | getCurrentItem(index, timelineItem, carouselItem){} | (索引值, 时间轴Item, 轮播图Item)
 
 
-##作者信息
+## 作者信息
 - 陈佳兵
 - qq：1014984541
 - 邮箱：1014984541@qq.com
