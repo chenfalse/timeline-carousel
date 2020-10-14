@@ -42,7 +42,7 @@ carouselList | []  | Array | 轮播图列表 | 数量需与时间轴列表一致
 carouseIsShow | true | Boolean | 是否显示轮播图 |  |
 autoPlay | true | Boolean | 是否自动播放 | |
 loop | true | Boolean | 是否循环播放 | |
-timelineNum | 6 | Number | 时间轴显示数量 |  |
+timelineNum | 7 | Number | 时间轴显示数量 |  |
 timelineWidth | 150 | Number | 时间轴item宽度 | 默认150宽度，如果更改宽度，组件中展示几个元素需要与timelineNum属性展示数量保持一致 |
 enterActiveClass | animate__animated animate__fadeInLeft | String | 轮播图切换动画 | animate.css库中任意动画都可以使用 |
 mouseEvent | false | Boolean | 鼠标移入轮播图禁止滚动 | |
@@ -58,4 +58,4 @@ getCurrentItem | getCurrentItem(index, timelineItem, carouselItem){} | (索引�
 - 陈佳兵
 - qq：1014984541
 - 邮箱：1014984541@qq.com
-- github: (https://github.com/chenfalse/timeline-carousel)
+- github: [https://chenfalse.github.io/timeline-carousel/#/](https://chenfalse.github.io/timeline-carousel/#/)

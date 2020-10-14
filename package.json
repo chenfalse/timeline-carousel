@@ -1,8 +1,8 @@
 {
   "name": "timeline-carousel",
-  "version": "0.3.1",
+  "version": "0.3.8",
   "private": false,
-  "description": "时间轴轮播图插件",
+  "description": "vue时间轴轮播图插件",
   "main": "lib/timeline-carousel.umd.min",
   "license": "MIT",
   "author": "chenjiabing",
@@ -20,7 +20,7 @@
   "dependencies": {
     "animate.css": "^4.1.1",
     "core-js": "^3.6.5",
-    "timeline-carousel": "^0.2.2",
+    "timeline-carousel": "^0.3.7",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
